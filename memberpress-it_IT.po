@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-07-28 12:35+0100\n"
+"PO-Revision-Date: 2016-10-18 19:52+0100\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -426,7 +426,7 @@ msgstr "%s / mese"
 #: app/emails/MeprUserSubExpiresReminderEmail.php:28
 #: app/helpers/MeprRemindersHelper.php:45
 msgid "Subscription Expiring"
-msgstr "Scadenza Abboanmento"
+msgstr "Scadenza Abbonamento"
 
 #: app/controllers/MeprEmailsCtrl.php:108
 msgid "Subscription Expiring in 2 Days"
@@ -6541,7 +6541,7 @@ msgstr "Promemoria per il tuo %1$s su <strong>%2$s</strong>."
 #: app/views/emails/user_cc_expires_reminder.php:9
 msgctxt "ui"
 msgid "We wouldn't want you to miss out on any of the great content we're working on so <strong>make sure you %1$supdate your credit card today%2$s</strong>."
-msgstr "Non vorremmo che tu rinunci a nessuno delle grandi contenuti su cui stiamo lavorando quindi <strong>assicuratevi di%1$sdi rinnovare la vostra carta di credito oggi%2$s</strong>."
+msgstr "Non vogliamo che tu rinunci a nessuno dei grandi contenuti a cui stiamo lavorando quindi <strong>assicurati di%1$sdi rinnovare la tua carta di credito oggi%2$s</strong>.ƒ"
 
 #: app/views/emails/user_cc_expires_reminder.php:10
 #: app/views/emails/user_member_signup_reminder.php:9
@@ -6864,7 +6864,7 @@ msgstr "Tipo di cliente"
 #: app/views/taxes/vat_signup.php:7
 msgctxt "ui"
 msgid "Consumer"
-msgstr "Consumatore finale"
+msgstr "Privato"
 
 #: app/views/taxes/vat_signup.php:11
 msgctxt "ui"
