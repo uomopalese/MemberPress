@@ -5,15 +5,15 @@ msgstr ""
 "Project-Id-Version: MemberPress 1.2.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/memberpress\n"
 "POT-Creation-Date: 2016-03-24 16:58:47+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-18 19:52+0100\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2022-11-24 11:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it_IT\n"
-"X-Generator: Poedit 1.7.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
 
 #: app/controllers/MeprAccountCtrl.php:150
 msgid "Your account has been saved."
@@ -182,7 +182,7 @@ msgstr "Abbonamenti"
 
 #: app/controllers/MeprAppCtrl.php:426 app/controllers/MeprGroupsCtrl.php:26
 msgid "Groups"
-msgstr "Vetrine"
+msgstr "Gruppi"
 
 #: app/controllers/MeprAppCtrl.php:428 app/controllers/MeprRulesCtrl.php:54
 #: app/views/admin/help/ui.php:34
@@ -192,7 +192,7 @@ msgstr "Regole"
 #: app/controllers/MeprAppCtrl.php:430 app/controllers/MeprCouponsCtrl.php:29
 #: app/views/admin/help/ui.php:37
 msgid "Coupons"
-msgstr "Promozioni"
+msgstr "Coupon"
 
 #: app/controllers/MeprAppCtrl.php:488
 msgid "We can't display your account form right now. Please come back soon and try again."
@@ -232,7 +232,7 @@ msgstr "Non è stato possibile salvare l'utente."
 
 #: app/controllers/MeprCheckoutCtrl.php:220
 msgid "Invalid payment method"
-msgstr "Metodo di pagamento non valido."
+msgstr "Metodo di pagamento non valido"
 
 #: app/controllers/MeprCheckoutCtrl.php:231
 msgid "Sorry, we were unable to create a transaction."
@@ -272,7 +272,7 @@ msgstr "Nessuna Promozione trovata."
 
 #: app/controllers/MeprCouponsCtrl.php:37
 msgid "No Coupons found in Trash"
-msgstr "Nessuna Promozione trovata nel cestino."
+msgstr "Nessuna Promozione trovata nel cestino"
 
 #: app/controllers/MeprCouponsCtrl.php:38
 msgid "Parent Coupon:"
@@ -310,8 +310,7 @@ msgstr "Si applica a"
 msgid "%"
 msgstr "%"
 
-#: app/controllers/MeprCouponsCtrl.php:83
-#: app/controllers/MeprUsersCtrl.php:347
+#: app/controllers/MeprCouponsCtrl.php:83 app/controllers/MeprUsersCtrl.php:347
 #: app/helpers/MeprSubscriptionsHelper.php:59
 #: app/helpers/MeprTransactionsHelper.php:106
 #: app/helpers/MeprTransactionsHelper.php:176
@@ -365,7 +364,7 @@ msgstr "Non hai accesso a questa risorsa."
 
 #: app/controllers/MeprEmailsCtrl.php:19
 msgid "Email couldn't be set to default"
-msgstr "impossibile impostare Email predefinita"
+msgstr "Impossibile impostare Email predefinita"
 
 #: app/controllers/MeprEmailsCtrl.php:38
 msgid "You do not have access to send a test email."
@@ -397,7 +396,7 @@ msgstr "Busto Arsizio, VA 21052"
 
 #: app/controllers/MeprEmailsCtrl.php:78
 msgid "United States"
-msgstr "Italia"
+msgstr "Stati Uniti"
 
 #: app/controllers/MeprEmailsCtrl.php:79
 msgid "User Meta Field: $1"
@@ -438,15 +437,15 @@ msgstr "La email di prova è stata inviata."
 
 #: app/controllers/MeprGroupsCtrl.php:27
 msgid "Group"
-msgstr "Vetrina"
+msgstr "Gruppo"
 
 #: app/controllers/MeprGroupsCtrl.php:28
 msgid "Add New Group"
-msgstr "Aggiungi nuova vetrina"
+msgstr "Aggiungi nuovo gruppo"
 
 #: app/controllers/MeprGroupsCtrl.php:29
 msgid "Edit Group"
-msgstr "Modifica vetrina"
+msgstr "Modifica gruppo"
 
 #: app/controllers/MeprGroupsCtrl.php:30
 msgid "New Group"
@@ -470,7 +469,7 @@ msgstr "Nessuna vetrina trovato nel cestino"
 
 #: app/controllers/MeprGroupsCtrl.php:35
 msgid "Parent Group:"
-msgstr "Gruppo genitore"
+msgstr "Gruppo genitore:"
 
 #: app/controllers/MeprGroupsCtrl.php:104
 msgid "Group Title"
@@ -506,7 +505,7 @@ msgstr "Questa sottoscrizione appartiene già ad un'altra vetrina. Se si assegna
 
 #: app/controllers/MeprLoginCtrl.php:31
 msgid "Logout"
-msgstr "Esci"
+msgstr "Logout"
 
 #: app/controllers/MeprLoginCtrl.php:36 app/controllers/MeprRulesCtrl.php:318
 #: app/controllers/MeprRulesCtrl.php:570 app/lib/MeprLoginWidget.php:88
@@ -678,7 +677,7 @@ msgstr "Nessun Abbonamento trovato nel cestino"
 
 #: app/controllers/MeprProductsCtrl.php:48
 msgid "Parent Membership:"
-msgstr "Abbonamento genitore"
+msgstr "Abbonamento genitore:"
 
 #: app/controllers/MeprProductsCtrl.php:67
 #: app/controllers/MeprRemindersCtrl.php:78
@@ -718,7 +717,7 @@ msgstr "Rimuovi benefit"
 
 #: app/controllers/MeprProductsCtrl.php:656
 msgid "An unknown error has occurred"
-msgstr "Si è verificato un errore sconosciuto."
+msgstr "Si è verificato un errore sconosciuto"
 
 #: app/controllers/MeprProductsCtrl.php:662
 msgid "Please save membership first to see the Price here."
@@ -963,7 +962,7 @@ msgstr "Nessuna Sottoscrizione trovata nel cestino"
 
 #: app/controllers/MeprSubscriptionsCtrl.php:63
 msgid "Parent Subscription:"
-msgstr "Sottoscrizione genitore"
+msgstr "Sottoscrizione genitore:"
 
 #: app/controllers/MeprSubscriptionsCtrl.php:89
 msgid "A Subscription should be cancelled (at the Gateway or here) by you, or by the Member on their Account page before being removed. Deleting an Active Subscription can cause future recurring payments not to be tracked properly. Are you sure you want to delete this Subscription?"
@@ -971,7 +970,7 @@ msgstr "Prima di essere rimossa una sottoscrizione dovrebbe essere annullata (pr
 
 #: app/controllers/MeprSubscriptionsCtrl.php:90
 msgid "The Subscription could not be deleted. Please try again later."
-msgstr "la Sottoscrizione non può essere cancellata. Riprova più tardi."
+msgstr "La Sottoscrizione non può essere cancellata. Riprova più tardi."
 
 #: app/controllers/MeprSubscriptionsCtrl.php:91
 msgid "This will cancel all future payments for this subscription. Are you sure you want to cancel this Subscription?"
@@ -1131,7 +1130,7 @@ msgstr "Deve essere impostato un id aliquota valido"
 
 #: app/controllers/MeprTaxesCtrl.php:117
 msgid "This tax rate was successfully deleted"
-msgstr "Questa aliquota è stata cancellata correttamente."
+msgstr "Questa aliquota è stata cancellata correttamente"
 
 #: app/controllers/MeprTransactionsCtrl.php:32
 msgid "MemberPress Send Transaction Expire Events"
@@ -1190,7 +1189,7 @@ msgstr "Eliminare una Transazione potrebbe impedire all'utente cui è associata 
 
 #: app/controllers/MeprTransactionsCtrl.php:313
 msgid "The Transaction could not be deleted. Please try again later."
-msgstr "la Transazione non può essere cancellata. Riprova più tardi."
+msgstr "La Transazione non può essere cancellata. Riprova più tardi."
 
 #: app/controllers/MeprTransactionsCtrl.php:314
 msgid "This will refund the transaction at the gateway level. This action is not reversable. Are you sure you want to refund this Transaction?"
@@ -1206,7 +1205,7 @@ msgstr "La tua transazione è stata rimborsata correttamente."
 
 #: app/controllers/MeprTransactionsCtrl.php:317
 msgid "The Transaction could not be refunded. Please issue the refund by logging into your gateway's virtual terminal"
-msgstr "L aTransazione non puà essere rimborsata. Si prega di rilasciare il rimborso accedendo al terminale virtuale del gateway."
+msgstr "La Transazione non può essere rimborsata. Si prega di rilasciare il rimborso accedendo al terminale virtuale del gateway."
 
 #: app/controllers/MeprTransactionsCtrl.php:362
 msgid "Could not refund transaction"
@@ -1304,8 +1303,7 @@ msgctxt "ui"
 msgid "Unknown"
 msgstr "Sconosciuto"
 
-#: app/controllers/MeprUsersCtrl.php:452
-#: app/views/account/subscriptions.php:31
+#: app/controllers/MeprUsersCtrl.php:452 app/views/account/subscriptions.php:31
 #: app/views/account/subscriptions.php:40
 msgctxt "ui"
 msgid "Never"
@@ -1366,7 +1364,7 @@ msgstr "Molto forte"
 
 #: app/controllers/MeprZxcvbnCtrl.php:35 app/controllers/MeprZxcvbnCtrl.php:53
 msgid "Password Strength"
-msgstr "Sicurezza password:"
+msgstr "Sicurezza password"
 
 #: app/controllers/MeprZxcvbnCtrl.php:69
 msgid "Password must be \"Weak\" or stronger"
@@ -1789,7 +1787,7 @@ msgstr "** Grazie per esserti registrato"
 
 #: app/emails/MeprUserProductWelcomeEmail.php:9
 msgid "Membership-Specific Welcome Email to User"
-msgstr "un'email specifica per questo Abbonamento"
+msgstr "Un'email specifica per questo Abbonamento"
 
 #: app/emails/MeprUserProductWelcomeEmail.php:10
 msgid "This email is sent when this membership is purchased."
@@ -1853,7 +1851,7 @@ msgstr "** Hai sospeso la tua sottoscrizione"
 
 #: app/emails/MeprUserUpgradedSubEmail.php:8
 msgid "This email is sent to the user when they upgrade a subscription."
-msgstr "Questa email è inviata all'utente che effettua l'upgrade di un asottoscrizione"
+msgstr "Questa email è inviata all'utente che effettua l'upgrade di una sottoscrizione."
 
 #: app/emails/MeprUserUpgradedSubEmail.php:12
 msgid "** You've upgraded your subscription"
@@ -1912,8 +1910,7 @@ msgstr "Paga con carta di credito tramite Authorize.net"
 #: app/gateways/MeprAuthorizeGateway.php:501
 #: app/gateways/MeprAuthorizeGateway.php:544
 #: app/gateways/MeprPayPalProGateway.php:253
-#: app/gateways/MeprStripeGateway.php:99
-#: app/gateways/MeprStripeGateway.php:441
+#: app/gateways/MeprStripeGateway.php:99 app/gateways/MeprStripeGateway.php:441
 msgid "Payment was unsuccessful, please check your payment details and try again."
 msgstr "Il pagamento non ha avuto successo, controlla i dati di pagamento e riprova."
 
@@ -1976,7 +1973,7 @@ msgstr "Scadenza"
 #: app/gateways/MeprStripeGateway.php:859
 #: app/gateways/MeprStripeGateway.php:1023
 msgid "Invalid Expiration"
-msgstr "Data di scadenza non valida."
+msgstr "Data di scadenza non valida"
 
 #: app/gateways/MeprAuthorizeGateway.php:934
 #: app/gateways/MeprAuthorizeGateway.php:1146
@@ -2033,7 +2030,7 @@ msgstr "Nome login*:"
 
 #: app/gateways/MeprAuthorizeGateway.php:1020
 msgid "Transaction Key*:"
-msgstr "Codice di transazione"
+msgstr "Codice di transazione:"
 
 #: app/gateways/MeprAuthorizeGateway.php:1024
 msgid "Usernames:"
@@ -2120,7 +2117,7 @@ msgstr "PayPal Express Checkout"
 #: app/gateways/MeprPayPalGateway.php:52
 #: app/gateways/MeprPayPalStandardGateway.php:35
 msgid "Pay via your PayPal account"
-msgstr "Pagar tramite conto PayPal"
+msgstr "Pagare tramite conto PayPal"
 
 #: app/gateways/MeprPayPalGateway.php:346
 #: app/gateways/MeprPayPalStandardGateway.php:387
@@ -2154,7 +2151,7 @@ msgstr "Signature*:"
 #: app/gateways/MeprPayPalProGateway.php:934
 #: app/gateways/MeprPayPalStandardGateway.php:841
 msgid "Use PayPal Sandbox"
-msgstr "Usa Paypal sandbox:"
+msgstr "Usa Paypal Sandbox"
 
 #: app/gateways/MeprPayPalGateway.php:781
 #: app/gateways/MeprPayPalProGateway.php:937
@@ -2286,7 +2283,7 @@ msgstr "PayPal Standard"
 #: app/gateways/MeprPayPalStandardGateway.php:659
 #: app/gateways/MeprPayPalStandardGateway.php:744
 msgid "Sorry, we couldn't complete the transaction. Try back later."
-msgstr "Spiacenti, non abbiamo potuto completare la transazione. Riprova più tardi. "
+msgstr "Spiacenti, non abbiamo potuto completare la transazione. Riprova più tardi."
 
 #: app/gateways/MeprPayPalStandardGateway.php:817
 msgid "Primary PayPal Email*:"
@@ -2395,11 +2392,9 @@ msgid "Free"
 msgstr "Gratis"
 
 #: app/helpers/MeprAppHelper.php:55 app/helpers/MeprAppHelper.php:93
-#: app/helpers/MeprAppHelper.php:107
-#: app/helpers/MeprTransactionsHelper.php:103
+#: app/helpers/MeprAppHelper.php:107 app/helpers/MeprTransactionsHelper.php:103
 #: app/models/MeprSubscription.php:337 app/models/MeprSubscription.php:563
-#: app/models/MeprTransaction.php:414
-#: app/views/admin/subscriptions/row.php:128
+#: app/models/MeprTransaction.php:414 app/views/admin/subscriptions/row.php:128
 #: app/views/admin/subscriptions/row.php:183
 #: app/views/admin/taxes/vat_profile_fields.php:18
 #: app/views/admin/transactions/edit_trans.php:12
@@ -2609,7 +2604,7 @@ msgstr "Inserisci qui il tuo messaggio per il contenuto non autorizzato:"
 
 #: app/helpers/MeprOptionsHelper.php:338
 msgid "Login Form:"
-msgstr "Modulo di accesso"
+msgstr "Modulo di accesso:"
 
 #: app/helpers/MeprOptionsHelper.php:342 app/views/admin/options/form.php:179
 #: app/views/admin/options/form.php:302 app/views/admin/options/form.php:320
@@ -2644,14 +2639,13 @@ msgstr "Ogni 3 mesi"
 
 #: app/helpers/MeprProductsHelper.php:25
 msgid "Every 6 Months"
-msgstr "Ogni 6 mesi."
+msgstr "Ogni 6 mesi"
 
 #: app/helpers/MeprProductsHelper.php:58
 msgid "Add Benefit"
 msgstr "Aggiungi vantaggio"
 
-#: app/helpers/MeprProductsHelper.php:80
-#: app/helpers/MeprProductsHelper.php:100
+#: app/helpers/MeprProductsHelper.php:80 app/helpers/MeprProductsHelper.php:100
 msgid "who currently have"
 msgstr "chi attualmente possiede"
 
@@ -2705,7 +2699,7 @@ msgstr "Sottoscrizione scaduta %d %s fa"
 
 #: app/helpers/MeprRemindersHelper.php:60
 msgid "Subscription is renewing in %d %s"
-msgstr "la Sottoscrizione si rinnoverà in %d %s"
+msgstr "La Sottoscrizione si rinnoverà in %d %s"
 
 #: app/helpers/MeprRemindersHelper.php:65
 msgid "Subscription Renewed"
@@ -2831,7 +2825,7 @@ msgstr "giorno(i)"
 
 #: app/helpers/MeprRulesHelper.php:137
 msgid "week(s)"
-msgstr "Settimana(e)"
+msgstr "settimana(e)"
 
 #: app/helpers/MeprRulesHelper.php:138
 msgid "month(s)"
@@ -2922,7 +2916,7 @@ msgstr "Sospendi"
 
 #: app/lib/MeprBaseGateway.php:339 app/views/admin/subscriptions/row.php:69
 msgid "Resume"
-msgstr "riattiva"
+msgstr "Riattiva"
 
 #: app/lib/MeprBaseGateway.php:346
 msgid "Are you sure you want to cancel this subscription? You will not be able to signup for it again until after your most recent payment has expired."
@@ -2990,7 +2984,7 @@ msgstr "%s deve essere un indirizzo email valido"
 
 #: app/lib/MeprBaseModel.php:181
 msgid "%s must be a valid IP Address"
-msgstr "%s deve essere un indirizzo IP valido."
+msgstr "%s deve essere un indirizzo IP valido"
 
 #: app/lib/MeprBaseModel.php:187
 msgid "%s must be a valid date"
@@ -3102,7 +3096,7 @@ msgstr "Classe di lavoro non trovata per %s"
 
 #: app/lib/MeprJobFactory.php:17
 msgid "%s is not a valid job object."
-msgstr "%s non è un elemento di lavoro valido"
+msgstr "%s non è un elemento di lavoro valido."
 
 #: app/lib/MeprJobs.php:50
 msgid "MemberPress Jobs Worker"
@@ -3253,7 +3247,7 @@ msgstr "Deve essere impostato almeno un Indirizzo email amministratore"
 
 #: app/models/MeprOptions.php:421
 msgid "The Admin Email Address field must contain 1 or more valid email addresses"
-msgstr "L'indirizzo email Amministratore deve contenere 1 o più indirizzi email validi."
+msgstr "L'indirizzo email Amministratore deve contenere 1 o più indirizzi email validi"
 
 #: app/models/MeprOptions.php:434
 msgid "You must enter your full Merchant Business Address (found on the Info tab)."
@@ -3472,7 +3466,7 @@ msgstr "Il Nome utente deve contenere solo lettere, numeri e/o caratteri di sott
 
 #: app/models/MeprUser.php:576
 msgid "Username is Already Taken."
-msgstr "Questo Nome utente è già in uso"
+msgstr "Questo Nome utente è già in uso."
 
 #: app/models/MeprUser.php:579
 msgid "Email must be a real and properly formatted email address"
@@ -3512,7 +3506,7 @@ msgstr "Non ci sono metodi di pagamento attivi al momento ... Contatta l&#39;amm
 
 #: app/models/MeprUser.php:640
 msgid "Invalid Payment Method"
-msgstr "Metodo di pagamento non valido."
+msgstr "Metodo di pagamento non valido"
 
 #: app/models/MeprUser.php:668
 msgid "Your username is incorrect"
@@ -3528,7 +3522,7 @@ msgstr "Inserire il Nome utente o la Email"
 
 #: app/models/MeprUser.php:691
 msgid "That Username or Email wasn't found."
-msgstr "Nome utente o password non trovati"
+msgstr "Nome utente o password non trovati."
 
 #: app/models/MeprUser.php:1098
 msgid "<br/>%1$s<br/>%2$s, %3$s %4$s%5$s<br/>"
@@ -3542,17 +3536,17 @@ msgstr "Nome:"
 #: app/views/account/home.php:19 app/views/checkout/form.php:28
 msgctxt "ui"
 msgid "First Name Required"
-msgstr "Il Nome è richiesto."
+msgstr "Il Nome è richiesto"
 
 #: app/views/account/home.php:25 app/views/checkout/form.php:34
 msgctxt "ui"
 msgid "Last Name:"
-msgstr "Cognome"
+msgstr "Cognome:"
 
 #: app/views/account/home.php:26 app/views/checkout/form.php:35
 msgctxt "ui"
 msgid "Last Name Required"
-msgstr "Il Cognome è richiesto."
+msgstr "Il Cognome è richiesto"
 
 #: app/views/account/home.php:32 app/views/checkout/form.php:69
 msgctxt "ui"
@@ -3632,7 +3626,7 @@ msgstr "Aggiorna Password"
 #: app/views/account/password.php:22
 msgctxt "ui"
 msgid "or"
-msgstr " oppure "
+msgstr "oppure"
 
 #: app/views/account/password.php:23
 msgctxt "ui"
@@ -4118,7 +4112,7 @@ msgstr "MemberPress pagina Accedi"
 
 #: app/views/admin/options/form.php:43
 msgid "Group and Membership Pages Slugs:"
-msgstr "Slug pagine Vetrine e Abbonamenti"
+msgstr "Slug pagine Vetrine e Abbonamenti:"
 
 #: app/views/admin/options/form.php:45
 msgid "Group and Membership Pages Slugs"
@@ -4170,7 +4164,7 @@ msgstr "template_redirect (consigliato)"
 
 #: app/views/admin/options/form.php:81
 msgid "init"
-msgstr "Init"
+msgstr "init"
 
 #: app/views/admin/options/form.php:85
 msgid "Redirect non-singular views:"
@@ -4306,7 +4300,7 @@ msgstr "Richiedi l'accettazione dei termini del servizio durante la registrazion
 
 #: app/views/admin/options/form.php:239
 msgid "URL to your Terms of Service page:"
-msgstr "URL della pagina dei termini del servizio"
+msgstr "URL della pagina dei termini del servizio:"
 
 #: app/views/admin/options/form.php:247
 msgid "Terms of Service Checkbox Title:"
@@ -4314,7 +4308,7 @@ msgstr "Titolo dell'etichetta per l'accettazione dei termini del servizio:"
 
 #: app/views/admin/options/form.php:256
 msgid "Login & Logout:"
-msgstr "Accesso &amp; Uscita"
+msgstr "Accesso &amp; Uscita:"
 
 #: app/views/admin/options/form.php:260
 msgid "Force WordPress to use the MemberPress login page"
@@ -4402,7 +4396,7 @@ msgstr "È possibile specificare i campi personalizzati da utilizzare con accoun
 
 #: app/views/admin/options/form.php:339
 msgid "Add new Custom Field"
-msgstr "Aggiungi nuovo campo personalizzato:"
+msgstr "Aggiungi nuovo campo personalizzato"
 
 #: app/views/admin/options/form.php:345
 msgid "Payment Methods"
@@ -4422,7 +4416,7 @@ msgstr "Nome mittente:"
 
 #: app/views/admin/options/form.php:368
 msgid "From Email:"
-msgstr "Email mittente"
+msgstr "Email mittente:"
 
 #: app/views/admin/options/form.php:371 app/views/admin/options/form.php:373
 msgid "Member Notices"
@@ -4664,7 +4658,7 @@ msgstr "URL di accesso Abbonamento"
 
 #: app/views/admin/products/advanced.php:8
 msgid "This is the URL where those who purchase this membership can get the content they now have access to."
-msgstr "Questo è l'URL dove chi ha acquistato questo abbonamento può accedere ai contenuti a cui ora hanno accesso"
+msgstr "Questo è l'URL dove chi ha acquistato questo abbonamento può accedere ai contenuti a cui ora hanno accesso."
 
 #: app/views/admin/products/advanced.php:8
 msgid "When set, the Membership Access URL will make this membership name clickable when a member views their Subscriptions/Payments tabs on the Account page."
@@ -4709,7 +4703,7 @@ msgstr "Condizioni di adesione. personalizzate:"
 #: app/views/admin/products/advanced.php:41
 #: app/views/admin/products/advanced.php:44
 msgid "Custom Login Redirect URLs"
-msgstr "URL di accesso personalizzato."
+msgstr "URL di accesso personalizzato"
 
 #: app/views/admin/products/advanced.php:45
 msgid "By default MemberPress will redirect members to the page setup in options. This will allow you to override that default behavior and customize it any way you want."
@@ -4786,15 +4780,13 @@ msgstr "Scadenza fissata"
 
 #: app/views/admin/products/form.php:50
 msgid "Expire After:"
-msgstr "Scade dopo"
+msgstr "Scade dopo:"
 
-#: app/views/admin/products/form.php:59
-#: app/views/admin/reminders/trigger.php:6
+#: app/views/admin/products/form.php:59 app/views/admin/reminders/trigger.php:6
 msgid "days"
 msgstr "giorni"
 
-#: app/views/admin/products/form.php:62
-#: app/views/admin/reminders/trigger.php:9
+#: app/views/admin/products/form.php:62 app/views/admin/reminders/trigger.php:9
 msgid "years"
 msgstr "anni"
 
@@ -4804,7 +4796,7 @@ msgstr "Consenti rinnovi"
 
 #: app/views/admin/products/form.php:76
 msgid "Expire On:"
-msgstr "Scade il"
+msgstr "Scade il:"
 
 #: app/views/admin/products/form.php:90
 msgid "Interval:"
@@ -4836,7 +4828,7 @@ msgstr "Limita n° periodi di pagamento"
 
 #: app/views/admin/products/form.php:137
 msgid "Max # of Payments:"
-msgstr "N° massimo di pagamenti"
+msgstr "N° massimo di pagamenti:"
 
 #: app/views/admin/products/form.php:143
 msgid "Access After Last Cycle:"
@@ -4880,7 +4872,7 @@ msgstr "Mostra Prezzo"
 
 #: app/views/admin/products/price_box.php:26
 msgid "Heading Text:"
-msgstr "Testo dell'heading"
+msgstr "Testo dell'heading:"
 
 #: app/views/admin/products/price_box.php:30
 msgid "Benefits:"
@@ -4888,7 +4880,7 @@ msgstr "Vantaggi:"
 
 #: app/views/admin/products/price_box.php:37
 msgid "Footer Text:"
-msgstr "Testo del footer"
+msgstr "Testo del footer:"
 
 #: app/views/admin/products/price_box.php:41
 msgid "Button Text:"
@@ -4912,7 +4904,7 @@ msgstr "Avanzate"
 
 #: app/views/admin/products/registration.php:5
 msgid "Registration Button Text:"
-msgstr "Testo del bottone di registrazione:"
+msgstr "Testo del pulsante di registrazione:"
 
 #: app/views/admin/products/registration.php:12
 #: app/views/admin/products/registration.php:15
@@ -4925,11 +4917,11 @@ msgstr "Se questa opzione è selezionata, l'imposta non varrà applicata a quest
 
 #: app/views/admin/products/registration.php:22
 msgid "Enable custom thank you page message"
-msgstr "Messaggio di ringraziamento personalizzato"
+msgstr "Attiva un messaggio \"Thank You Page\" personalizzato"
 
 #: app/views/admin/products/registration.php:25
 msgid "Enable Custom Thank You Page Message"
-msgstr "Messaggio di ringraziamento personalizzato"
+msgstr "Attiva un messaggio \"Thank You Page\" personalizzato"
 
 #: app/views/admin/products/registration.php:26
 msgid "Enabling this option will reveal a new Compose form which you can use to provide a custom message to show on the Thank You page after a member purchases this membership."
@@ -5062,7 +5054,7 @@ msgstr "Transazioni fallite"
 #: app/views/admin/reports/year_info_blocks.php:14
 #: app/views/admin/widgets/admin_stats_widget.php:20
 msgid "Refunded Transactions"
-msgstr "TRansazioni rimborsate"
+msgstr "Transazioni rimborsate"
 
 #: app/views/admin/reports/all_time_info_blocks.php:19
 #: app/views/admin/reports/month_info_blocks.php:19
@@ -5172,8 +5164,7 @@ msgid "Totals"
 msgstr "Totali"
 
 #: app/views/admin/reports/month_table.php:80
-#: app/views/admin/reports/year_table.php:82
-#: app/views/admin/table_footer.php:2
+#: app/views/admin/reports/year_table.php:82 app/views/admin/table_footer.php:2
 #: app/views/admin/widgets/admin_stats_widget.php:52
 msgid "Export as CSV"
 msgstr "Esporta come CSV"
@@ -5333,7 +5324,7 @@ msgstr "Elimina sottoscrizione"
 #: app/views/admin/subscriptions/row.php:81
 #: app/views/admin/transactions/row.php:83
 msgid "Delete"
-msgstr "Cancella"
+msgstr "Elimina"
 
 #: app/views/admin/subscriptions/row.php:89
 msgid "Show related transaction"
@@ -5346,7 +5337,7 @@ msgstr "Mostra transazioni correlate"
 #: app/views/admin/subscriptions/row.php:105
 #: app/views/admin/transactions/row.php:45
 msgid "View member's profile"
-msgstr "Visualizza il profilo dell'utente."
+msgstr "Visualizza il profilo dell'utente"
 
 #: app/views/admin/subscriptions/row.php:105
 #: app/views/admin/transactions/row.php:45
@@ -6342,8 +6333,7 @@ msgstr "Importo:"
 #: app/views/emails/admin_new_one_off.php:12
 #: app/views/emails/admin_receipt.php:11
 #: app/views/emails/admin_refunded_txn.php:10
-#: app/views/emails/user_failed_txn.php:12
-#: app/views/emails/user_receipt.php:11
+#: app/views/emails/user_failed_txn.php:12 app/views/emails/user_receipt.php:11
 #: app/views/emails/user_refunded_txn.php:12
 msgctxt "ui"
 msgid "Transaction:"
@@ -7899,7 +7889,7 @@ msgstr "Corea del Sud"
 #: i18n/countries.php:208
 msgctxt "ui"
 msgid "South Sudan"
-msgstr "Sudan"
+msgstr "Sud Sudan"
 
 #: i18n/countries.php:209
 msgctxt "ui"
@@ -8039,7 +8029,7 @@ msgstr "Regno Unito (UK)"
 #: i18n/countries.php:236
 msgctxt "ui"
 msgid "United States (US)"
-msgstr "Italia"
+msgstr "Stati Uniti (US)"
 
 #: i18n/countries.php:237
 msgctxt "ui"
